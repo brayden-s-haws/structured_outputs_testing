@@ -1,4 +1,4 @@
-# LLM Structured Outputs Comparison
+# LLM Structured Outputs Testing
 
 ## Description
 This project compares the performance of different Language Models (LLMs) in generating structured outputs for book information. It utilizes various LLMs, including GPT, Claude, and Llama, along with different techniques for structured output generation. The project aims to provide insights into the capabilities and differences of these models when tasked with extracting specific information from book summaries.
