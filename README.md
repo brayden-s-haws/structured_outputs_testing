@@ -3,6 +3,7 @@
 ## Description
 This project compares the performance of different Language Models (LLMs) in generating structured outputs for book information. It utilizes various LLMs, including GPT, Claude, and Llama, along with different techniques for structured output generation. The project aims to provide insights into the capabilities and differences of these models when tasked with extracting specific information from book summaries.
 
+![CleanShot Safari-2024-09-15](https://github.com/user-attachments/assets/8d746c6e-e542-484c-a935-e50c72d35b05)
 
 
 ## How It Works
