@@ -92,4 +92,3 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Acknowledgements
 - Thanks to the creators of the Instructor library for simplifying structured output generation with LLMs.
-- Appreciation to OpenAI, Anthropic, and Groq for providing access to their powerful language models.
