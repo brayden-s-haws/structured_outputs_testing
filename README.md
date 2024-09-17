@@ -16,6 +16,8 @@ The application takes a book summary as input and processes it through four diff
 
 Each implementation attempts to extract structured information about the book, including title, author, genres, publication year, and a brief summary.
 
+You can see a demo of it [here](https://cln.sh/tkLBZrrF).
+
 Here's a diagram of the process:
 
 ```mermaid
@@ -31,7 +33,6 @@ graph TD
     F --> H
     G --> H
 ```
-
 ## Features
 - **Multiple LLM Comparison**: Compares outputs from GPT, Claude, and Llama models.
 - **Structured Output Generation**: Uses both the Instructor library and OpenAI's native structured outputs.
