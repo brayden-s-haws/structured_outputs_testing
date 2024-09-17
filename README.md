@@ -82,11 +82,9 @@ To run this project, you'll need Python installed on your system. Follow these s
 - [Instructor](https://github.com/jxnl/instructor): For structured output generation with LLMs
 - [Pydantic](https://pydantic-docs.helpmanual.io/): For data validation and settings management
 
-## Roadmap
-- Add more LLM implementations for comparison
+## Potential Improvements
 - Implement a scoring system to evaluate the accuracy of extracted information
 - Add functionality to analyze multiple book summaries in batch
-- Integrate with a book database API for validation of extracted information
 
 ## License
 This project is open source and available under the [MIT License](LICENSE).
