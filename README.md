@@ -2,6 +2,14 @@
 
 #### Current status: Complete
 
+___
+
+### Personal Progress
+* What I learned: How to work with the Instructor library and OpenAI's native structured outputs capabilities. In previous projects I had relied on prompts and JSON mode to try and force consistency. Learning how to use these tools made it so that my prompts could be less detailed while getting a better quality of output.
+* What I wish I had done differently: Chosen a more challenging project to learn these tools with. This was very straightforward and help me learn the concepts but I would have benefitted more with a more challenging use case.
+* What I am most proud of: [Lines 24-25](https://github.com/brayden-s-haws/structured_outputs_testing/blob/94c86f3c055648e0ca05bb30733aa982028bec66/book_analysis.py#L24) of book_analysis.py. This was an interesting test of combining RAG with the models native knowledge. I was able to retrive data from the summary for certain fields and then have the model generate data for fields that were not in the summary.
+* What I want to learn next: How to integrate Instructor into more elaborate LLM pipelines. Both feeding LLM outputs into Instructor and then using Instructor outputs as inputs into other LLM API calls.
+
 ## Description
 This project compares the performance of different Language Models (LLMs) in generating structured outputs for book information. It utilizes various LLMs, including GPT, Claude, and Llama, along with different techniques for structured output generation. The project aims to provide insights into the capabilities and differences of these models when tasked with extracting specific information from book summaries.
 
@@ -50,7 +58,7 @@ To run this project, you'll need Python installed on your system. Follow these s
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/brayden-s-haws/structured_outputs_testing.git
    cd your-repo-name
    ```
 
@@ -95,10 +103,4 @@ This project is open source and available under the [MIT License](LICENSE).
 ## Acknowledgements
 - Thanks to the creators of the Instructor library for simplifying structured output generation with LLMs.
 
-___
 
-### Personal Progress
-* What I learned: How to work with the Instructor library and OpenAI's native structured outputs capabilities. In previous projects I had relied on prompts and JSON mode to try and force consistency. Learning how to use these tools made it so that my prompts could be less detailed while getting a better quality of output.
-* What I wish I had done differently: Chosen a more challenging project to learn these tools with. This was very straightforward and help me learn the concepts but I would have benefitted more with a more challenging use case.
-* What I am most proud of: [Lines 24-25](https://github.com/brayden-s-haws/structured_outputs_testing/blob/94c86f3c055648e0ca05bb30733aa982028bec66/book_analysis.py#L24) of book_analysis.py. This was an interesting test of combining RAG with the models native knowledge. I was able to retrive data from the summary for certain fields and then have the model generate data for fields that were not in the summary.
-* What I want to learn next: How to integrate Instructor into more elaborate LLM pipelines. Both feeding LLM outputs into Instructor and then using Instructor outputs as inputs into other LLM API calls.
